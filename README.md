@@ -1,0 +1,2 @@
+# GET-POST--DOM-SAX-XML
+GET，POST两种方法-（模拟请求登陆），DOM，SAX方式 解析XML
