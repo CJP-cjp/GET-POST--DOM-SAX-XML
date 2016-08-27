@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B335451D7021FC00F6E453 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B335441D7021FC00F6E453 /* main.m */; };
+		04B335481D7021FC00F6E453 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B335471D7021FC00F6E453 /* AppDelegate.m */; };
+		04B3354B1D7021FC00F6E453 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3354A1D7021FC00F6E453 /* ViewController.m */; };
+		04B3354E1D7021FC00F6E453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B3354C1D7021FC00F6E453 /* Main.storyboard */; };
+		04B335501D7021FC00F6E453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B3354F1D7021FC00F6E453 /* Assets.xcassets */; };
+		04B335531D7021FC00F6E453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B335511D7021FC00F6E453 /* LaunchScreen.storyboard */; };
+		04B3355C1D7022F500F6E453 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3355B1D7022F500F6E453 /* GDataXMLNode.m */; };
+		04B3355F1D7025C800F6E453 /* videoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3355E1D7025C800F6E453 /* videoModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04B335401D7021FC00F6E453 /* Dom方式解析XML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dom方式解析XML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B335441D7021FC00F6E453 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B335461D7021FC00F6E453 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B335471D7021FC00F6E453 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B335491D7021FC00F6E453 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04B3354A1D7021FC00F6E453 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B3354D1D7021FC00F6E453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B3354F1D7021FC00F6E453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B335521D7021FC00F6E453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B335541D7021FC00F6E453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B3355A1D7022F500F6E453 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		04B3355B1D7022F500F6E453 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		04B3355D1D7025C800F6E453 /* videoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoModel.h; sourceTree = "<group>"; };
+		04B3355E1D7025C800F6E453 /* videoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B3353D1D7021FC00F6E453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B335371D7021FC00F6E453 = {
+			isa = PBXGroup;
+			children = (
+				04B335421D7021FC00F6E453 /* Dom方式解析XML */,
+				04B335411D7021FC00F6E453 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B335411D7021FC00F6E453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B335401D7021FC00F6E453 /* Dom方式解析XML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B335421D7021FC00F6E453 /* Dom方式解析XML */ = {
+			isa = PBXGroup;
+			children = (
+				04B335461D7021FC00F6E453 /* AppDelegate.h */,
+				04B3355A1D7022F500F6E453 /* GDataXMLNode.h */,
+				04B3355B1D7022F500F6E453 /* GDataXMLNode.m */,
+				04B335491D7021FC00F6E453 /* ViewController.h */,
+				04B335471D7021FC00F6E453 /* AppDelegate.m */,
+				04B3354A1D7021FC00F6E453 /* ViewController.m */,
+				04B3354C1D7021FC00F6E453 /* Main.storyboard */,
+				04B3354F1D7021FC00F6E453 /* Assets.xcassets */,
+				04B335511D7021FC00F6E453 /* LaunchScreen.storyboard */,
+				04B335541D7021FC00F6E453 /* Info.plist */,
+				04B335431D7021FC00F6E453 /* Supporting Files */,
+				04B3355D1D7025C800F6E453 /* videoModel.h */,
+				04B3355E1D7025C800F6E453 /* videoModel.m */,
+			);
+			path = "Dom方式解析XML";
+			sourceTree = "<group>";
+		};
+		04B335431D7021FC00F6E453 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B335441D7021FC00F6E453 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B3353F1D7021FC00F6E453 /* Dom方式解析XML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B335571D7021FC00F6E453 /* Build configuration list for PBXNativeTarget "Dom方式解析XML" */;
+			buildPhases = (
+				04B3353C1D7021FC00F6E453 /* Sources */,
+				04B3353D1D7021FC00F6E453 /* Frameworks */,
+				04B3353E1D7021FC00F6E453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dom方式解析XML";
+			productName = "Dom方式解析XML";
+			productReference = 04B335401D7021FC00F6E453 /* Dom方式解析XML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B335381D7021FC00F6E453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04B3353F1D7021FC00F6E453 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 04B3353B1D7021FC00F6E453 /* Build configuration list for PBXProject "Dom方式解析XML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B335371D7021FC00F6E453;
+			productRefGroup = 04B335411D7021FC00F6E453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B3353F1D7021FC00F6E453 /* Dom方式解析XML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B3353E1D7021FC00F6E453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B335531D7021FC00F6E453 /* LaunchScreen.storyboard in Resources */,
+				04B335501D7021FC00F6E453 /* Assets.xcassets in Resources */,
+				04B3354E1D7021FC00F6E453 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B3353C1D7021FC00F6E453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B3354B1D7021FC00F6E453 /* ViewController.m in Sources */,
+				04B3355C1D7022F500F6E453 /* GDataXMLNode.m in Sources */,
+				04B3355F1D7025C800F6E453 /* videoModel.m in Sources */,
+				04B335481D7021FC00F6E453 /* AppDelegate.m in Sources */,
+				04B335451D7021FC00F6E453 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04B3354C1D7021FC00F6E453 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B3354D1D7021FC00F6E453 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B335511D7021FC00F6E453 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B335521D7021FC00F6E453 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B335551D7021FC00F6E453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B335561D7021FC00F6E453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B335581D7021FC00F6E453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Dom方式解析XML/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = "shengmingzhouqi.Dom----XML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04B335591D7021FC00F6E453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Dom方式解析XML/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = "shengmingzhouqi.Dom----XML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B3353B1D7021FC00F6E453 /* Build configuration list for PBXProject "Dom方式解析XML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B335551D7021FC00F6E453 /* Debug */,
+				04B335561D7021FC00F6E453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B335571D7021FC00F6E453 /* Build configuration list for PBXNativeTarget "Dom方式解析XML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B335581D7021FC00F6E453 /* Debug */,
+				04B335591D7021FC00F6E453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B335381D7021FC00F6E453 /* Project object */;
+}
